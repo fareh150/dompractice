@@ -9,7 +9,6 @@ button1.addEventListener("click", (ev) => {
 
 //1.2 Añade un evento 'focus' que ejecute un console.log con el valor del input.
 
-//error preguntar
 const focus2 = document.querySelector(".focus");
 focus2.addEventListener("focus", (ev) => {
   console.log(ev.target.value);
